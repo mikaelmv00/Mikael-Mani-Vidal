@@ -62,119 +62,225 @@
 								
 								<h3>Project 1. | Creating this website</h3>
                                 <h4>Objective</h4>
-                                <p>The objective of this project was to create a interactive website that contained the worksheet given in class, VÉL608G, using HTML5 to then write in detail how the website was created. The website should comprise of my contact information as well as my resume. </p>
-                                <h4>Methodology</h4>
-                                <b>Step 1.</b> <p>I learned the basics from <a href="https://www.youtube.com/playlist?list=PLGuNTpc293hpIpAVSJ3-SgNolCTa1BfJE">lectures</a> that were provided by my professor. </p>
+                                <p>The objective of this project was to create a interactive website that contained the worksheet given in class, VÉL608G, using HTML5 to then write in detail how the website was created. The website should comprise of my contact information as well as my resume. Then the website should be published on Github using Git bash. The website was allowed to be written in Icelandic or English. It was important to address the problems and obstacles that I encountered during the development of this website and how I resolved those issues. </p>
                                 
-                                <b>Step 2.</b>
-                                <p>I researched and found information about how to write HTML code at <a href="https://www.w3schools.com/">W3Schools.com</a>.</p>
-                                <b>Step 3.</b>
-                                <p>I downloaded the <a href="https://brackets.io//">program Brackets</a>, along with  <a href="https://git-scm.com/">Git-SCM</a>, and  <a href="https://github.com/">github</a>. </p>
-                                <b>Step 4.</b>
-                                <p>I found a free open source template at  <a href="https://html5up.net/">html5up</a>. I uploaded the template to Brackets and used my newly developed skill in HTML coding to edit the template for my needs.</p>
-                                <b>Step 5.</b>
-				<p>I edited the HTML code from the template in the program Brackets and used the live "Live Preview" feature to see the changes I made.	</p>	
-				<b>Step 6.</b>
-                                <p>I created a logo for the website.</p>
-				<b>Step 7.</b>
-				<p>I made the logo as the browser tab icon (favicon) for the website by writing: < link rel="icon" href="images/logo5.png" > , where "images/logo5.ping" is the path to the logo, in the head of the website.</p>				
-                                <b>Step 8.</b>
-				<p>I created a GitHub account at <a href="https://github.com/">github.com</a> and created a new repository, uploaded all my files to there by pressing "upload" and dragging them over. I ended up not having to use Git-SCM to upload my files to GitHub, which made the whole process easy and straight forward.  </p>
-                                <span class="image main"><img src="images/uploadfile.png" alt="" /></span>
-				<b>Step 9.</b>
-                                <p>I uploaded the website by going to settings, and opening "pages" under "Code and automation". There I pressed the drop-down list under "Branch" and changed it from "None" to "main" </p>
+                                <h4>Preparation</h4>
+                                <p>I started off by learning the basics from <a href="https://www.youtube.com/playlist?list=PLGuNTpc293hpIpAVSJ3-SgNolCTa1BfJE">lectures</a> that were provided by my professor. Then, I researched and found information about how to write HTML code at <a href="https://www.w3schools.com/">W3Schools.com</a>. After that, I downloaded the <a href="https://brackets.io//">program Brackets</a>, along with  <a href="https://git-scm.com/">Git-SCM</a>, and created an account on  <a href="https://github.com/">github</a>. After I signed up, I clicked <i>New</i> in the repositories column on the left side of the homepage. </p> 
+                                <span class="image main"><img src="images/my4.png" alt="" /></span>
+                                <p>I filled in the required fields <i>Repository name</i> with a name that I wanted to use for the website and made sure that i chose the <i>Public</i> option, not <i>Private</i> </p>
+                                <span class="image main"><img src="images/my5.png" alt="" /></span>
+                                <p>I created a logo for the website that I wanted on the front page and as a <a href="https://en.wikipedia.org/wiki/Favicon/">favicon</a>. </p>
+                                
+
+                                <h4>Creating the website</h4>
+                                <p>I found a free open source template called "Dimension" on <a href="https://html5up.net/">html5up</a>.   I downloaded it and then uploaded the template to Brackets by dragging the Index file over. </p>
+                                <span class="image main"><img src="images/my1.png" alt="" /></span>
+                                <span class="image main"><img src="images/my2.png" alt="" /></span>
+                                <p>Using my newly developed HTML coding skills, I edited the HTML code from the template in Brackets. I utilized the "Live Preview" feature to see the changes I made. Whenever I modified anything in the code, I simply pressed CTRL + S to save the index file, and the website updated automatically.</p>
+                                <span class="image main"><img src="images/my3.png" alt="" /></span>
+                                
+                                <p>To begin, I examined the template in the browser and edited the parts I wanted to change in the index code. Gradually, I started understanding how to read HTML code. Here are some examples of the code I frequently used: </p>
+                                
+                                <pre> 
+                                    <code>
+                                        <p>- To display images on the website:</p>
+                                        <xmp> <span class="image main"><img src="images/my3.png" alt="" /></span></xmp>
+                                        <p>- To insert a link embedded text: </p>
+                                        <xmp><a href="#write the website link here#">#write the text here#</a></xmp>
+                                        <p>- How I inserted my resume as a download button:</p>
+                                        <xmp><button onclick="document.getElementById('link').click()">Resume - IS</button> <a id="link" href="https://raw.githubusercontent.com/mikaelmv00/Mikael-Mani-Vidal/main/images/cvalfred.pdf" download hidden></a>
+                                        </xmp>
+                                        <p>- I made the logo as the browser tab icon (favicon) for the website by writing:</p> 
+                                        <xmp><link rel="icon" href="images/logo5.png" > , where "images/logo5.ping" is the path to the logo, in the head of the website.</xmp>
+                                        <p>To write a text, p is used for regular text, i for italic, b is for bold, h1 for hedding 1. h2 for hedding 2 and so forth.</p>
+                                        <xmp>
+                                        <p1>Write text here</p1> 
+                                        <i>Write text here</i>
+                                        <h1>Write text here</h1>
+                                        <b>Write text here</b>
+                                        </xmp>
+                                    </code>
+                                </pre>
                             
-                                <p>Finally, my website was completed! Not the only thing to do is to copy the link to my website and share it!</p>
-						
-				<h3>Project 2. | Computer-aided incision</h3>
-				<h4>Objective</h4>
-				<p>The objective of this project was:</p>
-				<p>	1. To use a vinyl cutter to create a sticker.</p>
-				<p>	2. To design a parametric, press fit model of a building blocks. The model should be scalable.</p>
-				<h4>Methodology</h4>
-				
-				<h4>Sticker</h4>				
-				<p>For the sticker, I Googled sticker ideas and searched for designs. Then, I found one that I thought was funny, so I picked that one.</p>
-				<span class="image main"><img src="images/savewater.png" alt="" /></span>
-				<p>In order to cut it out with the vinyl cutter the image had to be saved in .svg format. So I used the website <a href="https://convertio.co/png-svg/">Convertio</a> for that.
-				Then, I downloaded the program, <a href="https://inkscape.org/">Inkscape</a>, uploaded the design file and connected the computer to the printer then printed the sticker.</p>
-				<p>These are the results: </p>
-				<video src="images/video1.mp4" controls>
-				  <p>
-				    Your browser doesn't support HTML video. Here is a
-				    <a href="images/video1.mp4">link to the video</a> instead.
-				  </p>
-				</video>
-				<span class="image main"><img src="images/mynd2.jpg" alt="" /></span>
-				<span class="image main"><img src="images/mynd1.jpg" alt="" /></span>
-								
-				<h4>Press fit model</h4>
-				<h4>Methodology</h4>
-								
-				<p>Here, I was tasked with designing a model that consisted of peices for later manual pressfit-assembly. Since I needed a 
-				new ceiling light in my living room, I decided to strike two birds with one stone and make that as my project.</p>	
-				<p> I began by finding inspiration through internet search, using keywords such as 'modern light designs' and honed in on the ones I found most simplistic and elegant. Then I sketched down some ideas and opened up Inventor.</p>
-				<p> I still had my old ceiling light infrastructure, so I measured it and designed my light shade around the original foundation. </p> 
-				<span class="image main"><img src="images/ljosmynd1.jpg" alt="" /></span>
-				<p> I started off by sketching the measurements of the structure in Inventor, and designed the central light disk to hold the light.   </p>
-				<span class="image main"><img src="images/ljosmynd2.jpg" alt="" /></span>
-				<p> I set the parameters and worked on the central light disc.</p>
-				<span class="image main"><img src="images/ljosmynd3.png" alt="" /></span>
-				<p> Here is how the disc turned out.</p>
-				<span class="image main"><img src="images/ljosmynd4.png" alt="" /></span>
-				<p> Then, in order to create a disc allowing for self-assembly I cut out 20 small rectangles along the border of the disc, all at a 40 degree incline at 18 degree increments using the 'pattern'
-					feature in Inventor. It was necessary to have 40 degree inclnes so that the attachable 'wings' or the outer shade could provide some design and of course provide shade and control the amount of light that comes through.<p/>
-				<span class="image main"><img src="images/ljosmynd5.png" alt="" /></span>
-				<p>The end results looked like this:
-				<span class="image main"><img src="images/ljosmynd6.png" alt="" /></span>
-				<p>Then I designed a "wing" that connected to the disc and holds the light together. </p>
-				<span class="image main"><img src="images/ljosmynd7.png" alt="" /></span>
-				<p>Then I made another disc that was supposed to be at the bottom, which looked similar to the first one. Then I created an assembly and the design was complete. </p>
-				<span class="image main"><img src="images/ljosmynd11.png" alt="" /></span>
-				<span class="image main"><img src="images/ljosmynd12.jpg" alt="" /></span>
-				<span class="image main"><img src="images/ljosmynd13.jpg" alt="" /></span>
-				<span class="image main"><img src="images/ljosmynd9.png" alt="" /></span>
-				<span class="image main"><img src="images/ljosmynd10.png" alt="" /></span>
-				<p> Finally, the only thing left to do was export the sketches as a .DXF file and upload to Inkscape, which then allows for the designs to be laser-cut from provided material. 
-					Of course, as any good engineer can attest to, miscalculations and cost inefficient designs run rampant, and it was discovered the original light design would require 12 sheets of expensive material resulting in 30.000 krona worth of expenses. I then decided to 
-					redesign the light such that both material and cost would decrease, resulting in a similar design but with a simpler shape. </p> 
-				<span class="image main"><img src="images/ljosmynd14.jpg" alt="" /></span>
-				<p> Below is the first more cost-efficient prototype.</p>
-				<span class="image main"><img src="images/ljosmynd15.jpg" alt="" /></span>
-				<p>That looked like this in Inkscape.</p>
-				<span class="image main"><img src="images/ljosmynd16.png" alt="" /></span>
-				<p>Then I made about 8 more versions where I maximized the size of the wing and the efficiency of the material use, while still maintaining its' elegance.
-				I could have originally made the wings entirely rectangular for optimal cost efficiency, but to keep the design a more aesthetic looking piece, I retained the curvature of the wing. </p>
-				<span class="image main"><img src="images/ljosmynd18.png" alt="" /></span>
-				<span class="image main"><img src="images/ljosmynd19.png" alt="" /></span>
-				<span class="image main"><img src="images/ljosmynd20.png" alt="" /></span>
-				<span class="image main"><img src="images/ljos1.jpg" alt="" /></span>
-				<span class="image main"><img src="images/ljos2.jpg" alt="" /></span>
-				<p> I was not as happy with this design as the original one, but at least it was really cheap to produce. Now I needed only three of 50x50 plywood panels instead of 12. </p>
-				
-				<h3>Project 3. | 3D Scanning and 3D printing</h3>
-				<h3>Be aware, this site is still under construction and this project is not finished! </h3>
+                                <p>To display code on the website i wrote:
+                                <span class="image main"><img src="images/my6.png" alt="" /></span> Where my3.png is the name of the image</p>
+
+
+                                <p>I exchanged the diamond logo for my own by replacing this code from the hedder:</p>
+                                <span class="image main"><img src="images/my8.png" alt="" /></span>
+
+                                <p>For this code:</p>
+                                <span class="image main"><img src="images/my7.png" alt="" /></span>
+                                
+                                <h5>Publishing the website</h5>
+                                <b>Step 1.</b>
+                                <p>After creating the GitHub account at <a href="https://github.com/">github.com</a> and and setting up a new repository, I uploaded all my files to there by clicking on "upload" and dragging them over. I didn't have to use Git-SCM to upload my files to GitHub, which made the entire process easy and straightforward.</p>
+                                <span class="image main"><img src="images/uploadfile.png" alt="" /></span>
+                                <b>Step 2.</b>
+                                <p>To upload the website, I went to the settings of my repository and selected "pages" under "Code and automation". From there, I clicked on the drop-down list under "Branch" and changed it from "None" to "main".</p>
+                                <p>Finally, my website was completed! Now, all that's left to do is copy the link to my website and share it with others.</p>
+                                
+                                <p>This was the easier way to do it, but as I am reviewing the project, I realize that it doesn't align with the teacher's instructions. Here's how it was supposed to be done:</p>
+                                
+                                <b>Step 1.</b>
+                                <p>Right-click on the folder where your website files are stored on your computer. Choose <i>Open wiht Git Bash</i> or <i>Git Bash here</i> from the menu</p>
+                                <span class="image main"><img src="images/my9.png" alt="" /></span>
+                                
+                                <b>Step 2</b>
+                                <p>In the GitHub window that opens up after creating the repository, copy the text shown in the picture below. </p>
+                                <span class="image main"><img src="images/my10.jpg" alt="" /></span>
+                                                                
+                                <b>Step 3</b>
+                                <p>When all the files are visible in your new repository, go to settings, find <i>Default branch</i> and change it from <i>none</i> to <i>main</i>. </p>
+                                <span class="image main"><img src="images/my11.png" alt="" /></span>
+                                
+                                <b>Final words</b>
+                                <p>The entire process of creating the website went smoothly, and I didn't encounter any major issues that required solving. Whenever I faced a challenge, I simply googled the problem and found a solution quickly. The template I selected was easy to work with, so I didn't have to make many changes. My advice to anyone creating their own website is to remember that Google is your friend, and don't be afraid to experiment. I am very pleased and proud of the results of my website. You can find the link to my repository <a href="https://github.com/mikaelmv00/Mikael-Mani-Vidal/pulls">here</a>, where you can view and download my website data. </p>
+                                
+                                <h3>Project 2 | Computer-aided incision</h3>
+                                
+                                
                                 <h4>Objective</h4>
-				<p> The objective for this project was to learn how to 3D scan an object and to learn how to use a 3D printer. </p>
-			       	<h4>Methodology</h4>
-				<h4>3D printing </h4>
-				<p> I had very lite time to finish this project, so I decided to design a very basic object to 3D print. I needed some decoration in my home, so I decided to 3D print a simple tealight holder. </p>
-				<p> I opened up Inventor and went straight to designing. First, I looked up the diameter of a tealight, and then I drew 3 circles. One that had a little bigger diameter than the candle, another one that
-				had 5 mm wider diameter than the first circle, and the third one had 10 mm wider diameter than the first one. I extruded this to form the shape, then I wanted some texture on the surface, so I made it threaded and then I made 
-				few holes in the object. This is how it turned out. </p>
-				<span class="image main"><img src="images/m2.png" alt="" /></span>
-				<p> This is not my best work, and as I said, I was very tight on time, so I spent only around 5 minutes to create this object. </p>
-				<p> Now, I needed to save the file of .STL form. I did that by pressing Save As --> Save Copy As --> Save as type --> STL Files(*.stl) </p>
-				<span class="image main"><img src="images/m3.png" alt="" /></span>
-				<span class="image main"><img src="images/m4.png" alt="" /></span>
-				<p> Now, I needed the program PrusaSlicer, so I installed it on my computer. There, I imported my .STL file into the program by selecting 'Add'. </p>
-				<span class="image main"><img src="images/m5.png" alt="" /></span>
-				<p> Then, I selected my printer settings, and used these settings: </p>
-				<span class="image main"><img src="images/m6.png" alt="" /></span>
-				<p> Now, I exported my files to a memory SD card, Inserted the card to the printer and printed the object. The material that I used for my tealight holder was green glow in the dark plastic.  </p>
-				<h3>Lokaverkefnið | CNC Fræsun </h3>
-				<p>Lokaverkefnið okkar úr hópi 1. snérist um að hanna vegghengdann minibar og fræsa hann út úr krossviðsplötu með CNC fræsi. Meðlimir hóps 1. eru Atli Þorvaldsson, Alexander Leonard Vidal og Mikael Máni Vidal.</p>
-				<p>Þar sem við vorum bara 3 í hóp var ákveðið var að best væri að hittast og vinna verkefnið saman í stað þess að skipta verkefninu niður í hluta og vinna hvern hluta fyrir sig. Það er fljótara því þá er mun meira hugmyndaflæði ásamt því að það er mun skemmtinlegra að vinna saman. Verkefnið var unnið þannig að allir í hópnum hittust, við hönnuðum hlutinn í einni tölvu og við skiptumst síðan á að rita niður jafn óðum ítarlega allt sem gert var í <a href="https://docs.google.com/document/d/1Dt75ElQo239T85HCQSAsKUijX08gt7Rg7-SGJzYxGI4/edit?usp=sharing">þetta skjal.</a> Síðan eftir að verkefninu var lokið, þá tók hann Atli á sig að færa allt úr skjalinu yfir á vefsíðu sína sem má finna <a href="https://atlithorvalds.github.io/Tolvustuddframleidsla/V4.html">hér.</a> Eina sem ég tók ekki þátt í var verkefnastjórnunar hlutinn og hönnunarverndin. Til þess að vera ekki að endurtaka allt sem stendur á heimasíðu hans Atla þá vil ég benda á að lesa um verkefnið <a href="https://atlithorvalds.github.io/Tolvustuddframleidsla/V4.html">þar</a>.  </p>
+                                <p>The objective of this project was:</p>
+                                <ol>
+                                  <li>To use a vinyl cutter to create a sticker.</li>
+                                  <li>To design a parametric, press fit model of building blocks. The model should be scalable.</li>
+                                </ol>
+                                <h4>Methodology</h4>
+
+                                <h4>Sticker</h4>
+                                <p>For the sticker, I searched for sticker ideas and designs online. I came across one that I found funny, so I chose that design.</p>
+                                <span class="image main"><img src="images/savewater.png" alt="" /></span>
+                                <p>To cut it out using the vinyl cutter, the image needed to be saved in .svg format. I used the website <a href="https://convertio.co/png-svg/">Convertio</a> to convert it.</p>
+                                <p>Next, I downloaded the program <a href="https://inkscape.org/">Inkscape</a>, uploaded the design file, connected the computer to the printer, and printed the sticker.</p>
+                                <p>Here are the results:</p>
+                                
+                                <video src="images/video1.mp4" controls>
+                                  <p>
+                                    Your browser doesn't support HTML video. Here is a
+                                    <a href="images/video1.mp4">link to the video</a> instead.
+                                  </p>
+                                </video>
+                                <span class="image main"><img src="images/mynd2.jpg" alt="" /></span>
+                                <span class="image main"><img src="images/mynd1.jpg" alt="" /></span>
+
+                                <h4>Press fit model</h4>
+                                <h4>Methodology</h4>
+                                <p>For this part of the project, I was assigned to design a model consisting of pieces for manual press-fit assembly. Taking advantage of the opportunity, I decided to create a new ceiling light for my living room.</p>
+                                <p>I started by searching the internet for inspiration, using keywords such as 'modern light designs,' and focused on the ones that were simplistic and elegant. After sketching some ideas, I opened Inventor to begin the design process.</p>
+                                <p>Since I already had the existing infrastructure for my old ceiling light, I took measurements and designed the light shade to fit around the original foundation.</p>
+                                
+                                <span class="image main"><img src="images/ljosmynd1.jpg" alt="" /></span>
+                                <p> I started off by sketching the measurements of the structure in Inventor, and designed the central light disk to hold the light.   </p>
+                                <span class="image main"><img src="images/ljosmynd2.jpg" alt="" /></span>
+                                <p> I set the parameters and worked on the central light disc. I set them by going to Manage -> Parameters. There, I wrote down all the parameters for my parts. By defining the parametes for the part, it makes it easier to change various lengths as well gives me the ability to scale up or down the part.   </p>
+                                <span class="image main"><img src="images/my12.png" alt="" /></span>
+                                <p> Here is how the disc turned out.</p>
+                                <span class="image main"><img src="images/ljosmynd4.png" alt="" /></span>
+                                <p> Then, in order to create a disc allowing for self-assembly I cut out 20 small rectangles along the border of the disc, all at a 40 degree incline at 18 degree increments using the 'pattern' feature in Inventor. It was necessary to have 40 degree inclnes so that the attachable 'wings' or the outer shade could provide some design and of course provide shade and control the amount of light that comes through.<p/>
+                                <span class="image main"><img src="images/ljosmynd5.png" alt="" /></span>
+                                <p>The end results looked like this:
+                                <span class="image main"><img src="images/ljosmynd6.png" alt="" /></span>
+                                <p>Then I designed a "wing" that connected to the disc and holds the light together. </p>
+                                <span class="image main"><img src="images/ljosmynd7.png" alt="" /></span>
+                                <p>Then I made another disc that was supposed to be at the bottom, which looked similar to the first one. Then I created an assembly and the design was complete. </p>
+                                <span class="image main"><img src="images/ljosmynd11.png" alt="" /></span>
+                                <span class="image main"><img src="images/ljosmynd12.jpg" alt="" /></span>
+                                <span class="image main"><img src="images/ljosmynd13.jpg" alt="" /></span>
+                                <span class="image main"><img src="images/ljosmynd9.png" alt="" /></span>
+                                <span class="image main"><img src="images/ljosmynd10.png" alt="" /></span>
+                                <p> Finally, the only thing left to do was export the sketches as a .DXF file and upload to Inkscape, which then allows for the designs to be laser-cut from provided material. 
+                                    Of course, as any good engineer can attest to, miscalculations and cost inefficient designs run rampant, and it was discovered the original light design would require 12 sheets of expensive material resulting in 30.000 krona worth of expenses. I then decided to 
+                                    redesign the light such that both material and cost would decrease, resulting in a similar design but with a simpler shape. </p> 
+                                <span class="image main"><img src="images/ljosmynd14.jpg" alt="" /></span>
+                                <p> Below is the first more cost-efficient prototype.</p>
+                                <span class="image main"><img src="images/ljosmynd15.jpg" alt="" /></span>
+                                <p>That looked like this in Inkscape.</p>
+                                <span class="image main"><img src="images/ljosmynd16.png" alt="" /></span>
+                                <p>Then I made about 8 more versions where I maximized the size of the wing and the efficiency of the material use, while still maintaining its' elegance.
+                                I could have originally made the wings entirely rectangular for optimal cost efficiency, but to keep the design a more aesthetic looking piece, I retained the curvature of the wing. </p>
+                                <span class="image main"><img src="images/ljosmynd18.png" alt="" /></span>
+                                <span class="image main"><img src="images/ljosmynd19.png" alt="" /></span>
+                                <span class="image main"><img src="images/ljosmynd20.png" alt="" /></span>
+                                <span class="image main"><img src="images/ljos1.jpg" alt="" /></span>
+                                <span class="image main"><img src="images/ljos2.jpg" alt="" /></span>
+
+                                <h>Final words</h>
+                                <p> I was not as happy with this design as the original one, but at least it was really cheap to produce. Now I needed only three of 50x50 plywood panels instead of 12. The project went really smooth and I thought that this was a very fun and interesting and i learned a lot from it. The design design documentations can be downloaded here below.
+                                
+                                <p></p>                
+                                <button onclick="document.getElementById('link').click()">Ljósakróna</button>
+                                <a id="link" href="https://raw.githubusercontent.com/mikaelmv00/Mikael-Mani-Vidal/main/images/ljosakrona.zip" download hidden></a>
+                                <p></p>
+                                <p></p>
+ 
+                                
+                                <h2>Project 3. | 3D Scanning and 3D printing</h2>
+                                <h3>Be aware, this site is still under construction and this project is not finished! </h3>
+                                <h4>Objective</h4>
+                                <p> The objective of this project was to learn how to 3D scan an object and how to use a 3D printer. </p>
+                                <h4>Methodology</h4>
+                                <h4>3D printing </h4>
+                                <p> Now that I have installed a new ceiling light in my living room, I wanted to design and 3D print a tea light holder. I needed some decoration for my home, so I decided to 3D print a self-glowing tealight holder. The idea was to maximize the energy usage from the tealight by capturing the energy from the flame and storing it in the holder. Once the tealight runs out, we can still have a light source from the candle holder. I wanted a tea light holder that resembled a part of a machine to give it an industrial vibe. While searching online, I came across a part for a <a href="https://thangs.com/designer/fromthinair3d/3d-model/kitchenaid%20carbon%20brush%20cap-12822">KitchenAid mixer</a> and another part that is used as a <a href="https://thangs.com/designer/DiegoPastrana/3d-model/Round%20cap%20%2B%20editable%20file-846100">screw cap,</a> which would be perfect for my tea light holder. </p>                                
+                                <span class="image main"><img src="images/my13.png" alt="" /></span>
+                                <span class="image main"><img src="images/my14.png" alt="" /></span>               
+                                <p> I opened Inventor and immediately started designing. Firstly, I looked up the diameter of a tealight and and proceeded to draw three circles. The first circle had a slightly larger diameter than the candle, the second circle had a diameter 5 mm wider than the first one, and the third circle had a diameter 10 mm wider than the first one. I extruded these circles to give them depth and create the desired shape. Next, to resemble the round cap I found online, I added threads and incorporated a few holes into the object to allow better airflow for the candle. Here is the final result of my design. </p>
+                                <span class="image main"><img src="images/m2.png" alt="" /></span>
+                                <p> I thought that this light holder looked awasome and that it would fit well in my apartment. Now, I needed to save the file in .STL format. I did that by following these steps: I clicked on "Save As," then selected "Save Copy As." In the "Save as type" dropdown menu, I chose "STL Files (*.stl)".</p>
+                                <span class="image main"><img src="images/m3.png" alt="" /></span>
+                                <span class="image main"><img src="images/m4.png" alt="" /></span>
+                                <p> Next, I needed the PrusaSlicer program, so I installed it on my computer. Once installed, I opened the program and imported my .STL file by selecting the "Add" option. </p>
+                                <span class="image main"><img src="images/m5.png" alt="" /></span>
+                                <p> Then, I proceeded to select my printer settings and utilized the following settings: </p>
+                                <span class="image main"><img src="images/m6.png" alt="" /></span>
+                                <p> Now, I exported my files to a memory SD card, Inserted the card to the printer and printed the object. The material that I used for my tealight holder was green glow in the dark plastic. This is how it turned out.</p>
+                                <span class="image main"><img src="images/my15.jpg" alt="" /></span>
+                                <span class="image main"><img src="images/my16.jpg" alt="" /></span>
+                                <span class="image main"><img src="images/my17.jpg" alt="" /></span>                
+                                <span class="image main"><img src="images/my18.jpg" alt="" /></span>                
+                                <span class="image main"><img src="images/my19.jpg" alt="" /></span> 
+                                <p>As evident from the results, the printing process encountered a failure as the printer did not successfully print out the threads. Additionally, a design flaw became apparent after using the candlelight holder: the candle burned at a higher temperature than the plastic, resulting in the gradual softening and potential melting of the material. To address this issue, an alternative solution would be to utilize LED candles, thereby eliminating the problem entirely. Alternatively, to prevent such issues in the future, I could have positioned the candle higher up in the holder to allow for better heat dissipation into the surrounding air, reducing the impact on the tea light holder. </p>
+                                <p> Despite these setbacks, I am satisfied with the overall outcome of the project. The candle holder possesses an appealing aesthetic when illuminated in the darkness. The top part emits a warm orange glow, while the bottom part radiates a vibrant green light. </p>
+
+                                <h3>Part II | 3D scanning </h3>
+
+                                <p>I wanted to 3D scan my decorative flower pot, so I decided to use my iPhone 12 and the Scaniverse app. Scaniverse is a highly recommended 3D scanning app specifically designed for iPhones. It utilizes the LiDAR scanner, which is available in iPhone 12 Pro, iPhone 12 Pro Max, iPhone 13 Pro, iPhone 13 Pro Max, and iPad Pro. Unfortunately, I didn't have one of these devices with the LiDAR scanner. However, I proceeded with the scanning process, and it turned out to be great, producing impressive results.</p>
+
+                                <b>Here are the steps I followed:</b>
+                                <p>1. I downloaded the Scaniverse app from the App Store.<p/>
+                                <p>2. After opening the app, I started the scanning process.</p>
+                                <p>3. I placed my flower pot on the floor and circled the phone around the object.</p>
+                                <p>4. The scanning process was fast and intuitive, guiding me through the necessary steps.</p>
+                                <p>Here are the results:</p>
+
+                                <span class="image main"><img src="images/my20.PNG" alt="" /></span>
+                                <p>Now, I just needed to crop the object. </p>
+                                <span class="image main"><img src="images/my21.PNG" alt="" /></span>
+                                <span class="image main"><img src="images/my22.PNG" alt="" /></span>
+                                <span class="image main"><img src="images/my23.PNG" alt="" /></span>
+                                <span class="image main"><img src="images/my24.PNG" alt="" /></span>
+                                <span class="image main"><img src="images/my25.PNG" alt="" /></span>
+
+                                <video src="images/Untitled%20video%20-%20Made%20with%20Clipchamp%20(1).mp4" controls style="width: 100%; max-width: 500px; height: auto;">
+                                  <p>
+                                    Your browser doesn't support HTML video. Here is a
+                                    <a href="images/Untitled%20video%20-%20Made%20with%20Clipchamp%20(1).mp4">link to the video</a> instead.
+                                  </p>
+                                </video>
+
+                                <p>I am impressed with the scanning capabilities of Scaniverse, even without the use of a LiDAR scanner. It has exceeded my expectations and delivered satisfying results. </p>
+                                
+            
+                                
+                            
+                
+                
+                                
+                                
+                                
+                            <h2>Lokaverkefnið | CNC Fræsun </h2>
+                            <p>Our final project from group 1 revolved around designing a wall-mounted minibar and milling it out of plywood using a CNC router. The members of group 1 are Atli Þorvaldsson, Alexander Leonard Vidal, and Mikael Máni Vidal.</p>
+                            <p>Since we were only 3 in the group, it was decided that it would be best to meet and work on the project together rather than dividing it into parts and working on them individually. This approach allowed for faster brainstorming and made the work more enjoyable as we collaborated. The project was carried out by gathering all group members, designing the part on one computer, and then taking turns writing down detailed notes on everything done in <a href="https://docs.google.com/document/d/1Dt75ElQo239T85HCQSAsKUijX08gt7Rg7-SGJzYxGI4/edit?usp=sharing">this document.</a></p> <p> After completing the project, Atli took on the task of transferring everything from the document onto his website, which can be accessed <a href="https://atlithorvalds.github.io/Tolvustuddframleidsla/V4.html">here.</a> The only part I did not participate in was project management and design protection. To avoid repeating everything stated on Atli's website, I recommend reading about the project <a href="https://atlithorvalds.github.io/Tolvustuddframleidsla/V4.html">here</a>.  </p>
 				
 				
 			
